@@ -12,6 +12,10 @@
   justify-content: center;
   background-color: #030712;
 }
+h1{
+  text-align: center;
+  color: white;
+}
 .btn{
   font-size: 1rem;
   font-weight: 400;
@@ -20,16 +24,17 @@
   padding: 0.5rem;
   justify-content: center;
   color: #030712;
-  border: 2px dashed lightgray;
+  /* border: 2px dashed lightgray; */
   border-radius: 0.4rem;
   width: 26rem;
   cursor: pointer;
   transition: 0.3s;
 }
-.active{
+
+/* .active{
   color: white;
   background-color: #030712;
-}
+} */
 .card{
   width: 26rem;
   display: flex;
@@ -41,7 +46,8 @@
 }
 textarea{
   min-height: 100px;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
+  text-align: center;
   background-color: #ffffff;
   border: 2px solid lightgray;
   border-radius: 0.3rem;
@@ -79,6 +85,10 @@ p{
     width: 16rem;
   }
   .content{
-    width: 16rem;
+    width: 14rem;
+  }
+  h1{
+    padding: 0 10px;
+    font-size: 24px;
   }
 }

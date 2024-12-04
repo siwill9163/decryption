@@ -61,6 +61,7 @@ const handleClick = () => {
 
   return (
     <div className='container'>
+      <h1>Choose Encrypt or Decrypt</h1>
      
       <div>
         <button className={`btn btn-left ${screen === "encrypt" ? "active" : ""}`}
@@ -83,7 +84,7 @@ const handleClick = () => {
         <textarea
           value={text}
           onChange={({target}) => setText(target.value)}
-          placeholder={screen === "encrypt" ? "Enter Your Text" : "Enter Encrpted Data"
+          placeholder={screen === "encrypt" ? "TYPE A MESSAGE TO ENCRYPT" : "PASTE YOUR ENCRYTED MESSAGE HERE."
 
           }
         />
