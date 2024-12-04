@@ -70,3 +70,15 @@ p{
   color: orange;
   word-wrap: break-word;
 }
+
+@media(max-width: 391px){
+  .btn{
+    width: 16rem;
+  }
+  .card{
+    width: 16rem;
+  }
+  .content{
+    width: 16rem;
+  }
+}
