@@ -1,42 +1,72 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #030712;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.btn{
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  margin: 20px 0;
+  padding: 0.5rem;
+  justify-content: center;
+  color: #030712;
+  border: 2px dashed lightgray;
+  border-radius: 0.4rem;
+  width: 26rem;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.active{
+  color: white;
+  background-color: #030712;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  width: 26rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+textarea{
+  min-height: 100px;
+  font-size: 0.9rem;
+  background-color: #ffffff;
+  border: 2px solid lightgray;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.9rem;
+  resize: none;
 }
-
-.card {
-  padding: 2em;
+text::placeholder{
+  color: lightgray;
 }
-
-.read-the-docs {
-  color: #888;
+.content{
+  width: 26rem;
+  margin-top: 2rem;
+  border: 2px dashed lightgray;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+}
+label{
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: lightgray;
+}
+p{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: orange;
+  word-wrap: break-word;
 }
